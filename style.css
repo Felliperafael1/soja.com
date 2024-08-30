@@ -10,3 +10,23 @@ body {
 h1 {
     background-color: white
 }
+root{
+    --cor-botao-e-titulo : #191970;
+}
+@import url("styles/header.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
